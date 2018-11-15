@@ -23,7 +23,12 @@ h1 {
     border-style:solid;
 }
 
-p 1 {
+h2{
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.first-paragraph {
     font-family: verdana;
     font-size: 20px;
     margin-top: 100px;
