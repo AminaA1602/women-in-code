@@ -23,6 +23,14 @@ h1 {
     border-style:solid;
 }
 
+.navbar text {
+    background-color: #333;
+    overflow: hidden;
+    position: center;
+    width: 80%;
+    padding-top:40px
+  }
+
 p 1 {
     font-family: verdana;
     font-size: 20px;

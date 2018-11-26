@@ -1,52 +1,114 @@
 body {
-  background-color: lightblue;
-}
-
-.header {
   background-color: black;
+  padding-top:50px;
+  padding-bottom: 100px;
+}
+
+#header h1 {
+  background-color: pink;
   text-align: center;
-  padding: 40px;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 200px;
-    background-color: #f1f1f1;
-}
-
-li {
-    float: left;
-}
-
-a {
-    display: block;
-    padding: 8px;
-    background-color: #dddddd;
-}
-
-#borderimg {
-  border: 10px solid transparent;
-  padding: 15px;
-  border-image: url(border.png) 30 round;
-}
-
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  text-align: left;
-  text-align: right;
-  padding: 24px 36px;
-  text-decoration: none;
+  font-size: 50px;
+  font-family: "Arial Black",sans-serif;
+  font-weight: bolder;
+  padding-bottom:40px;
+  padding-top: 10px;
+  padding-left: 50px;
+  padding-right: 40px;
 }
 
 li a:hover {
-  background-color: #111;
+    background-color: pink;
+    padding-top: 50px;
 }
 
-footer {
-  background-color: black;
+.navpage{
+  padding-top: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+#Subscribe{
+  color:black;
+  text-align: center;
+  padding-right: 40px;
+}
+
+
+
+
+ul {
+    list-style-type: none;
+    margin: 30;
+    padding-bottom:60px;
+    overflow: hidden;
+    background-color: #black;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float:right;
+    float:left;
+    padding-right: 100px;
+    padding-bottom:50px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align:justify;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+
+#borderimg {
+  border: 10px solid transparent: pink;
+  padding: 25px;
+  background-color: pink;
+}
+
+.katherine p {
+  font-size: 30px;
+  text-align:center;
+  font-weight:bold;
+  font color:pink;
+  background-color: pink;
+  padding-bottom: 50px;
+}
+
+.Ada p {
+  font-size: 30px;
+  text-align:center;
+  font-weight:bold;
+  background-color: pink;
+  padding-bottom: 50px;
+}
+
+.Grace p {
+  font-size: 30px;
+  text-align:center;
+  font-weight:bold;
+  background-color: pink;
+  padding-bottom: 50px;
+}
+
+#footer-spacer {
+    height: 6px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+#footer {
+  background-color:pink;
+  font-size: 14px;
+  font-family: sans-serif;
+  margin-bottom: auto;
+}
+
+.blockquote {
+background-color: pink;
+font-family: sans-serif;
+font-weight: bold;
 }
